@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         
         var count = 0
         for row in 5...10{
-            count += 1
+            count += 2
             self.sum += row
         }
         print("총 합은 \(self.sum), \(count)회 실행되었습니다.")
